@@ -18,6 +18,7 @@ def main():
 
     # Personal message about GIS
     print("I'm interested in using GIS to analyze environmental hazards and support community planning.")
-
+    print('Updated in Codespaces')
+    
 if __name__ == "__main__":
     main()
