@@ -28,10 +28,54 @@ This repository demonstrates GitHub skills including:
 - `docs/` - documentation
 - `scripts/` - Python scripts
 
+## Installation and Setup
+
+This project has no external Python dependencies. You need Python 3 and Git.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/CCampbell221/gist-604b-assignment1.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd gist-604b-assignment1
+   ```
+
+3. Confirm that Python 3 is available:
+
+   ```bash
+   python3 --version
+   ```
+
+No package installation or virtual environment is required for this project.
+
 ## Usage
-To run the hello script:
+
+Run the included greeting script from the project directory:
 
 ```bash
-python scripts/hello.py
+python3 scripts/hello.py
 ```
-  
+
+The script prints a greeting, course and student information, a University of
+Arizona coordinate, and a short GIS-related message. Example output:
+
+```text
+Hello from GIST 604B!
+Student: Courtney Campbell
+Learning open source GIS workflows with GitHub
+University of Arizona coordinates: 32.2319° N, 110.9501° W
+I'm interested in using GIS to analyze environmental hazards and support community planning.
+Updated in Codespaces
+```
+
+## Verification
+
+To check that the script compiles without errors:
+
+```bash
+python3 -m compileall -q scripts
+```
